@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Cryptogram.Pages.GamePage">
+    <ContentPage.Content>
+        <StackLayout VerticalOptions="Center" Spacing="50">
+            
+            <ScrollView>
+                <VerticalStackLayout x:Name="quoteLayout" Spacing="20">
+                </VerticalStackLayout>
+            </ScrollView>
+            
+            <StackLayout HorizontalOptions="Center" VerticalOptions="End" Margin="0,0,0,30">
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                    </Grid.RowDefinitions>
+
+                    <!-- Row 1 -->
+                    <StackLayout Orientation="Horizontal" Grid.Row="0" HorizontalOptions="Center">
+                        <Button Text="Q" Clicked="OnKeyClicked" FontSize="14" CornerRadius="0" Padding="0" WidthRequest="37" HeightRequest="40" />
+                        <Button Text="W" Clicked="OnKeyClicked" FontSize="14" CornerRadius="0" Padding="0" WidthRequest="37" HeightRequest="40" />
+                        <Button Text="E" Clicked="OnKeyClicked" FontSize="14" CornerRadius="0" Padding="0" WidthRequest="37" HeightRequest="40" />
+                        <Button Text="R" Clicked="OnKeyClicked" FontSize="14" CornerRadius="0" Padding="0" WidthRequest="37" HeightRequest="40" />
+                        <Button Text="T" Clicked="OnKeyClicked" FontSize="14" CornerRadius="0" Padding="0" WidthRequest="37" HeightRequest="40" />
+                        <Button Text="Y" Clicked="OnKeyClicked" FontSize="14" CornerRadius="0" Padding="0" WidthRequest="37" HeightRequest="40" />
+                        <Button Text="U" Clicked="OnKeyClicked" FontSize="14" CornerRadius="0" Padding="0" WidthRequest="37" HeightRequest="40" />
+                        <Button Text="I" Clicked="OnKeyClicked" FontSize="14" CornerRadius="0" Padding="0" WidthRequest="37" HeightRequest="40" />
+                        <Button Text="O" Clicked="OnKeyClicked" FontSize="14" CornerRadius="0" Padding="0" WidthRequest="37" HeightRequest="40" />
+                        <Button Text="P" Clicked="OnKeyClicked" FontSize="14" CornerRadius="0" Padding="0" WidthRequest="37" HeightRequest="40" />
+                    </StackLayout>
+
+                    <!-- Row 2 -->
+                    <StackLayout Orientation="Horizontal" Grid.Row="1" HorizontalOptions="Center">
+                        <Button Text="A" Clicked="OnKeyClicked" FontSize="14" CornerRadius="0" Padding="0" WidthRequest="37" HeightRequest="40" />
+                        <Button Text="S" Clicked="OnKeyClicked" FontSize="14" CornerRadius="0" Padding="0" WidthRequest="37" HeightRequest="40" />
+                        <Button Text="D" Clicked="OnKeyClicked" FontSize="14" CornerRadius="0" Padding="0" WidthRequest="37" HeightRequest="40" />
+                        <Button Text="F" Clicked="OnKeyClicked" FontSize="14" CornerRadius="0" Padding="0" WidthRequest="37" HeightRequest="40" />
+                        <Button Text="G" Clicked="OnKeyClicked" FontSize="14" CornerRadius="0" Padding="0" WidthRequest="37" HeightRequest="40" />
+                        <Button Text="H" Clicked="OnKeyClicked" FontSize="14" CornerRadius="0" Padding="0" WidthRequest="37" HeightRequest="40" />
+                        <Button Text="J" Clicked="OnKeyClicked" FontSize="14" CornerRadius="0" Padding="0" WidthRequest="37" HeightRequest="40" />
+                        <Button Text="K" Clicked="OnKeyClicked" FontSize="14" CornerRadius="0" Padding="0" WidthRequest="37" HeightRequest="40" />
+                        <Button Text="L" Clicked="OnKeyClicked" FontSize="14" CornerRadius="0" Padding="0" WidthRequest="37" HeightRequest="40" />
+                    </StackLayout>
+
+                    <!-- Row 3 -->
+                    <StackLayout Orientation="Horizontal" Grid.Row="2" HorizontalOptions="Center">
+                        <Button Text="Z" Clicked="OnKeyClicked" FontSize="14" CornerRadius="0" Padding="0" WidthRequest="37" HeightRequest="40" />
+                        <Button Text="X" Clicked="OnKeyClicked" FontSize="14" CornerRadius="0" Padding="0" WidthRequest="37" HeightRequest="40" />
+                        <Button Text="C" Clicked="OnKeyClicked" FontSize="14" CornerRadius="0" Padding="0" WidthRequest="37" HeightRequest="40" />
+                        <Button Text="V" Clicked="OnKeyClicked" FontSize="14" CornerRadius="0" Padding="0" WidthRequest="37" HeightRequest="40" />
+                        <Button Text="B" Clicked="OnKeyClicked" FontSize="14" CornerRadius="0" Padding="0" WidthRequest="37" HeightRequest="40" />
+                        <Button Text="N" Clicked="OnKeyClicked" FontSize="14" CornerRadius="0" Padding="0" WidthRequest="37" HeightRequest="40" />
+                        <Button Text="M" Clicked="OnKeyClicked" FontSize="14" CornerRadius="0" Padding="0" WidthRequest="37" HeightRequest="40" />
+                    </StackLayout>
+                </Grid>
+            </StackLayout>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
